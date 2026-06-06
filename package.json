@@ -1,0 +1,26 @@
+{
+  "name": "operaciones-almacen",
+  "version": "1.0.0",
+  "description": "Sistema de control de entrada/salida y reportes para operaciones de almacén",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["almacen", "inventario", "entrada", "salida", "reportes"],
+  "author": "joseluiscallejasbeltran-blip",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "swagger-ui-express": "^5.0.0",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
